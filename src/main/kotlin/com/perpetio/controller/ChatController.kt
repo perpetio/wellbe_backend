@@ -6,8 +6,8 @@ import com.perpetio.dto.post.PostModel
 import com.perpetio.dto.user.AvatarModel
 import com.perpetio.dto.user.UserCredModel
 import com.perpetio.dto.user.UserMessageModel
-import com.perpetio.exception.ChatAlreadyJoinedException
-import com.perpetio.exception.MemberAlreadyJoinException
+import com.perpetio.plugins.exception.ChatAlreadyJoinedException
+import com.perpetio.plugins.exception.MemberAlreadyJoinException
 import com.perpetio.repository.message.MessageRepository
 import com.perpetio.repository.roomuser.RoomUserRepository
 import com.perpetio.repository.user.UserRepository

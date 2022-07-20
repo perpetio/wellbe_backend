@@ -1,11 +1,11 @@
-package com.perpetio.exception
+package com.perpetio.plugins.exception
 
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.plugins.statuspages.*
 import io.ktor.server.response.*
 
-fun Application.statusPages() {
+fun Application.configureStatusPagesPlugin() {
     install(StatusPages) {
         exception<RegistrationNameException> { call, _ ->
             call.respond(HttpStatusCode.BadRequest, "Username already has taken")

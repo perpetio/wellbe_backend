@@ -10,7 +10,7 @@ import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
 
-fun Application.configureRouting() {
+fun Application.configureRoutingPlugin() {
 
     val userController: UserController by inject()
     val postController: PostController by inject()

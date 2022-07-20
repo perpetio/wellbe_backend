@@ -1,7 +1,7 @@
 package com.perpetio.routing.user
 
 import com.perpetio.controller.ChatController
-import com.perpetio.exception.ChatNotFindException
+import com.perpetio.plugins.exception.ChatNotFindException
 import com.perpetio.util.UserInfo
 import com.perpetio.util.pagination.handlePagination
 import io.ktor.http.*

@@ -2,7 +2,7 @@ package com.perpetio.controller
 
 import com.perpetio.dto.post.CreateEditPostModel
 import com.perpetio.dto.post.PostModel
-import com.perpetio.exception.PostAlreadyLikedException
+import com.perpetio.plugins.exception.PostAlreadyLikedException
 import com.perpetio.repository.post.PostRepository
 import com.perpetio.repository.postLike.PostLikeRepository
 import com.perpetio.util.SearchFilter

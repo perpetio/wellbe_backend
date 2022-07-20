@@ -2,7 +2,7 @@ package com.perpetio.routing.user
 
 import com.perpetio.controller.PostController
 import com.perpetio.dto.post.CreateEditPostModel
-import com.perpetio.exception.PostEditException
+import com.perpetio.plugins.exception.PostEditException
 import com.perpetio.util.UserInfo
 import com.perpetio.util.handleSearchFilters
 import com.perpetio.util.pagination.handlePagination
@@ -27,6 +27,7 @@ fun Route.postRoutes(postController: PostController) {
                 postController.editPost(UserInfo.getId(call.principal()), post)
                 call.respond(HttpStatusCode.OK, true)
             }
+
 
             delete("/{postId}") {
                 call.parameters["postId"]?.let {

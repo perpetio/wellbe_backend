@@ -7,7 +7,7 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import io.ktor.server.config.*
 
 
-class AmazonS3Client(private val config: HoconApplicationConfig) {
+class AmazonS3Client(config: HoconApplicationConfig) {
 
     private val accessKey = config.property("aws.accessKey").getString()
     private val secretKey = config.property("aws.secretKey").getString()

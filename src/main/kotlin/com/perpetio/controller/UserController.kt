@@ -4,10 +4,10 @@ import com.amazonaws.services.s3.model.GeneratePresignedUrlRequest
 import com.amazonaws.services.s3.model.ObjectMetadata
 import com.amazonaws.services.s3.model.PutObjectRequest
 import com.perpetio.dto.user.*
-import com.perpetio.exception.LoginException
-import com.perpetio.exception.MultiPartDataNotFoundException
-import com.perpetio.exception.RegistrationFieldLengthException
-import com.perpetio.exception.RegistrationNameException
+import com.perpetio.plugins.exception.LoginException
+import com.perpetio.plugins.exception.MultiPartDataNotFoundException
+import com.perpetio.plugins.exception.RegistrationFieldLengthException
+import com.perpetio.plugins.exception.RegistrationNameException
 import com.perpetio.repository.user.UserRepository
 import com.perpetio.util.AmazonS3Client
 import com.perpetio.util.EncoderUtils.decryptCBC
