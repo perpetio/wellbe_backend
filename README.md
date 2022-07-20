@@ -2,6 +2,19 @@
 
 ## Introduction
 
+### The WeeBe application is a social media-type app built on Ktor framework that allows users to exchange various content connected with mental health, motivation, psychology, and improving oneself. Users can share posts with texts, images, videos, and links, as well as discuss the content in the comment section
+
+#### Ktor is an asynchronous framework for creating microservices, web applications, and more.
+  - Kotlin and Coroutines
+  - Lightweight and Flexible
+  - Easy to set up
+  - Easy to deploy and maintenance
+  - Assemble project only with plugins which you need
+  - Can fully replace Spring Boot
+  - Growing community, sufficient documentation
+
+## See our tutorial posts:
+
 ### Features include:
  - Registration/Login
  - Update user/avatar
@@ -11,7 +24,7 @@
  - Chats list/Join room/Leave Room
  - Send message (Notify chat members by WebSockets)
  - Search Filter and Pagination for posts requests
- - Deploy with Docker or Amazon Elastic Beanstalk 
+ - Deploy with Docker or Amazon Elastic Beanstalk with Fat JAR
 
 ### Ktor Features include:
 * [JWTToken Security](<https://ktor.io/docs/jwt.html#add_dependencies>)
