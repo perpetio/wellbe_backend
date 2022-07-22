@@ -10,7 +10,7 @@
   - Kotlin and Coroutines
   - Lightweight and Flexible
   - Easy to set up
-  - Easy to deploy and maintenance
+  - Easy to deploy and maintain
   - Assemble project only with plugins which you need
   - Can fully replace Spring Boot
   - Growing community, sufficient documentation
