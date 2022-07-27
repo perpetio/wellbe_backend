@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### The WeeBe application is a social media-type app built on Ktor framework that allows users to exchange various content connected with mental health, motivation, psychology, and improving oneself. Users can share posts with texts, images, videos, and links, as well as discuss the content in the comment section
+The WeeBe application is a social media-type app built on Ktor framework that allows users to exchange various content connected with mental health, motivation, psychology, and improving oneself. Users can share posts with texts, images, videos, and links, as well as discuss the content in the comment section
 
 ## See our tutorial posts:
 
