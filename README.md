@@ -4,6 +4,10 @@
 
 ### The WeeBe application is a social media-type app built on Ktor framework that allows users to exchange various content connected with mental health, motivation, psychology, and improving oneself. Users can share posts with texts, images, videos, and links, as well as discuss the content in the comment section
 
+## See our tutorial posts:
+
+Part 1 - [How to Build an Android Wellness App with the Ktor Framework. Part I: Backend](https://perpet.io/blog/how-to-build-an-android-wellness-app-with-the-ktor-framework-part-i-backend/)
+
 ### You can see out [wellbe_android](https://github.com/perpetio/wellbe_android), and notice how Ktor works on client side, with same plugins principes.
 
 #### Ktor is an asynchronous framework for creating microservices, web applications, and more.
@@ -14,8 +18,6 @@
   - Assemble project only with plugins which you need
   - Can fully replace Spring Boot
   - Growing community, sufficient documentation
-
-## See our tutorial posts:
 
 ### Features include:
  - Registration/Login
