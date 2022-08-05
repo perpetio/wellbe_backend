@@ -8,6 +8,8 @@ The WeeBe application is a social media-type app built on Ktor framework that al
 
 Part 1 - [How to Build an Android Wellness App with the Ktor Framework. Part I: Backend](https://perpet.io/blog/how-to-build-an-android-wellness-app-with-the-ktor-framework-part-i-backend/)
 
+Part 2 - [How to Build an Android Wellness App with the Ktor Framework. Part II: Android](https://perpet.io/blog/how-to-build-an-android-wellness-app-with-the-ktor-framework-part-ii-android/)
+
 ### You can see out [wellbe_android](https://github.com/perpetio/wellbe_android), and notice how Ktor works on client side, with same plugins principes.
 
 #### Ktor is an asynchronous framework for creating microservices, web applications, and more.
